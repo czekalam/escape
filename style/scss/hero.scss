@@ -1,0 +1,52 @@
+.hero {
+  height: 100vh;
+  background-image: url("../images/hero/image.png");
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  .container {
+      display: flex;
+      justify-content: center;
+      .content {
+          text-align: center;
+          max-width: 90%;
+          .title {
+              margin: 40vh 0 15vh 0;
+              .top-title {
+                  font-weight: lighter;
+                  font-size: 32px;
+                  margin-bottom: 5vh;
+              }
+              .bottom-title {
+                  font-size: 66px;
+                  font-weight: bold;
+              }
+          }
+          button {
+              background: inherit;
+              padding: 25px 70px;
+              color: #fff;
+              font-weight: bold;
+              font-size: 23px;
+              text-align: center;
+              border: 3px solid #fff;
+              border-radius: 5px;
+          }
+      }
+  }
+}
+@media (max-width:767.98px) {
+    .hero {
+        .title {
+            margin-top: 30vh!important;
+        }
+    }
+}
+@media (max-width:575.98px) {
+  .hero {
+        .title {
+            margin: 25vh 0 10vh 0!important;
+        }
+  }
+}

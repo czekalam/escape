@@ -1,0 +1,41 @@
+header {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    right: 0;
+    .logo {
+        float: left;
+    }
+    nav {
+        display: block;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            a {
+                padding: 0 20px;
+                font-size: 18px;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media (max-width:1300px) {
+    header {
+        padding: 0 50px;
+    }
+}
+@media (max-width:767.98px) {
+    header {
+        text-align: center;
+        .logo {
+            float: none;
+            transform: scale(1.5);
+        }
+        nav {
+            display: none;
+        }
+    }
+}

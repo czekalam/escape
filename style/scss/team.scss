@@ -1,0 +1,70 @@
+.team {
+  background-color: #111;
+  padding: 100px 0;
+  .container {
+    max-width: 800px;
+    .title {
+        text-align: center;
+        margin-bottom: 10vh;
+        h2 {
+            font-size: 66px;
+            font-weight: bold;
+            .before-title {
+                font-size: 60px;
+                font-weight: 100;
+            }
+        }
+        .bottom-title {
+            margin-top: 10px;
+            color: #777;
+        }
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        .icon {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            border: 7px solid #fff;
+            border-radius: 50%;
+        }
+        .about {
+            margin-top: 20px;
+            text-align: center;
+            .name {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .profession {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+            .social-wrapper {
+                border: 2px solid #fff;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+    .text {
+        text-align: center;
+        line-height: 30px;
+        margin: 50px;
+    }
+  }
+}
+@media (max-width:767.98px) {
+    .team {
+        .grid-container {
+            grid-template-columns: auto!important;
+            .grid-item {
+                margin: 20px;
+            }
+        }
+    }
+}

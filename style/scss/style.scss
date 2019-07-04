@@ -1,0 +1,25 @@
+@import 'header.scss';
+@import 'hero.scss';
+@import 'services-top.scss';
+@import 'services-bottom.scss';
+@import 'clients.scss';
+@import 'logos.scss';
+@import 'team.scss';
+@import 'contact.scss';
+@import 'footer.scss';
+
+body {
+    position: relative;
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    .clearfix::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}
