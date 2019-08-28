@@ -129,7 +129,7 @@ header {
       display: flex;
       justify-content: center;
       padding: 25px 50px; }
-      .services-bottom .grid-container .grid-item .icon {
+      .services-bottom .grid-container .grid-item figure {
         border-radius: 50%;
         width: 70px;
         height: 70px;
@@ -305,6 +305,8 @@ header {
       .contact .grid-container .grid-item i {
         margin-right: 10px;
         font-size: 30px; }
+      .contact .grid-container .grid-item figcaption {
+        display: inline-block; }
       .contact .grid-container .grid-item h2 {
         font-size: 66px;
         font-weight: bold; }
